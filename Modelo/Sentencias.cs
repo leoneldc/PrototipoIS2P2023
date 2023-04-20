@@ -38,6 +38,7 @@ namespace Modelo
 
         public void ejecutarSentecias(string sql)
         {
+            Console.WriteLine(sql);
             try
             {
                 OdbcCommand command = new OdbcCommand(sql, conexion.conexion());

@@ -59,3 +59,5 @@ create table if not exists `partido`(
     marcadorVisitante int not null,
     estado tinyint not null
 );
+insert into usuarios (id,username,password,nombre,apellido,dpi,edad,estado) values('1','admin','admin','admin','admin','995919','22','1');
+insert into usuarios (id,username,password,nombre,apellido,dpi,edad,estado) values('2','leonel','12345','leonel','dominguez','995919','22','1');
