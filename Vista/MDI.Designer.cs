@@ -36,6 +36,7 @@ namespace Vista
             this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +65,8 @@ namespace Vista
             // 
             // catalogosToolStripMenuItem
             // 
+            this.catalogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mantUsuariosToolStripMenuItem});
             this.catalogosToolStripMenuItem.Name = "catalogosToolStripMenuItem";
             this.catalogosToolStripMenuItem.Size = new System.Drawing.Size(108, 29);
             this.catalogosToolStripMenuItem.Text = "Catalogos";
@@ -91,6 +94,13 @@ namespace Vista
             this.ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
             this.ayudasToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.ayudasToolStripMenuItem.Text = "Ayudas";
+            // 
+            // mantUsuariosToolStripMenuItem
+            // 
+            this.mantUsuariosToolStripMenuItem.Name = "mantUsuariosToolStripMenuItem";
+            this.mantUsuariosToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.mantUsuariosToolStripMenuItem.Text = "Mant. Usuarios";
+            this.mantUsuariosToolStripMenuItem.Click += new System.EventHandler(this.mantUsuariosToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -121,5 +131,6 @@ namespace Vista
         private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantUsuariosToolStripMenuItem;
     }
 }
