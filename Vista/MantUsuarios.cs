@@ -57,6 +57,12 @@ namespace Vista
         private void button4_Click(object sender, EventArgs e)
         {
 
+            TextBox[] arrayTextbox = { textBox1, textBox2, textBox3, textBox4, textBox5, textBox6, textBox7, textBox8 };
+
+            foreach (TextBox textBox in arrayTextbox)
+            {
+                textBox.Text = "";
+            }
         }
 
         private void usuarios_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
