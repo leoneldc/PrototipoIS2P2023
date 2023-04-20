@@ -26,5 +26,12 @@ namespace Vista
         {
             Application.Exit();
         }
+
+        private void mantUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vista.MantUsuarios mantUsuarios = new Vista.MantUsuarios();
+            mantUsuarios.MdiParent = this;
+            mantUsuarios.Show();
+        }
     }
 }

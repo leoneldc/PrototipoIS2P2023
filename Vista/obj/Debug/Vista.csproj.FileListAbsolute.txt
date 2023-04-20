@@ -26,3 +26,4 @@ C:\Users\leone\OneDrive\Escritorio\UNI\IS\parcial2\Vista\obj\Debug\Vista.csproj.
 C:\Users\leone\OneDrive\Escritorio\UNI\IS\parcial2\Vista\obj\Debug\Vista.csproj.CopyComplete
 C:\Users\leone\OneDrive\Escritorio\UNI\IS\parcial2\Vista\obj\Debug\Vista.dll
 C:\Users\leone\OneDrive\Escritorio\UNI\IS\parcial2\Vista\obj\Debug\Vista.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\IS\parcial2\Vista\obj\Debug\Vista.MantUsuarios.resources
